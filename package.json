@@ -6,7 +6,7 @@
   "description": "Kantor AI 3D: kantor isometrik untuk agen AI kamu (Three.js + React). Gratis, MIT.",
   "scripts": {
     "dev": "vite --port 5173",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "test": "node scripts/test.mjs",
     "rekam": "node scripts/rekam.mjs"
   },

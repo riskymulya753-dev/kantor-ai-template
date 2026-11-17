@@ -65,7 +65,7 @@ export function officeDesks(hari: number, time: string, selaluKerja = false): De
 export function missionBoard(desks: readonly DeskState[]) {
   return {
     items: desks.flatMap((d) => d.waiting.map((text) => ({ key: d.agen.key, name: d.agen.nama, color: d.agen.warna, text }))),
-    metrics: desks.flatMap((d) => (LAPORAN[d.agen.key]?.angka ?? []).map((m) => ({ ...m, name: d.agen.nama }))),
+    metrics: desks.flatMap((d) => Object.entries(LAPORAN[d.agen.key]?.angka ?? {}).map(([label, value]) => ({ label, value, name: d.agen.nama }))),
   };
 }
 

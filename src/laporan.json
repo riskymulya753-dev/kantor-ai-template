@@ -1,59 +1,38 @@
 {
-  "raka": {
-    "ringkasan": "Enam paket tender baru; dua cocok, satu Rakor Dinas Contoh sedang dikejar.",
+  "riset": {
+    "ringkasan": "Rani menemukan 3 peluang baru untuk toko online hari ini.",
     "menunggu": [
-      "Setujui batch email B012 (30 kontak)"
+      "Pilih 1 peluang untuk dikejar besok."
     ],
-    "angka": [
-      {
-        "label": "Paket baru",
-        "nilai": "6 paket"
-      }
-    ]
+    "mendesak": [],
+    "angka": {
+      "temuan": 3,
+      "tender": 1,
+      "kompetitor": 2
+    }
   },
-  "sekar": {
-    "ringkasan": "Tiga kampus contoh membalas penawaran; satu minta sampel.",
+  "admin": {
+    "ringkasan": "Dimas merapikan inbox dan menyiapkan draf balasan.",
     "menunggu": [
-      "Kirim sampel ke Kampus Contoh?"
+      "Cek draf invoice sebelum dikirim."
     ],
-    "angka": [
-      {
-        "label": "Calon klien",
-        "nilai": "12 kontak"
-      }
-    ]
+    "mendesak": [],
+    "angka": {
+      "email": 12,
+      "invoice": 2,
+      "dokumen": 4
+    }
   },
-  "gilang": {
-    "ringkasan": "Brief video Festival Contoh masuk; storyboard awal disiapkan.",
-    "mendesak": [
-      "Tenggat penawaran Festival Contoh besok 10.00"
-    ]
-  },
-  "riska": {
-    "ringkasan": "212 email dirapikan; dua email phishing ditandai.",
+  "konten": {
+    "ringkasan": "Laras menyiapkan 3 ide konten dan draf caption.",
     "menunggu": [
-      "Periksa draf invoice termin 2"
+      "Pilih 1 ide untuk diposting besok."
     ],
-    "angka": [
-      {
-        "label": "Email dilabel",
-        "nilai": "212 email"
-      }
-    ]
-  },
-  "esok": {
-    "ringkasan": "Tiga alternatif konsep Rakor Dinas Contoh selesai.",
-    "menunggu": [
-      "Pilih konsep Rakor Dinas Contoh"
-    ]
-  },
-  "lita": {
-    "ringkasan": "Deck 14 slide Festival Contoh siap ditinjau.",
-    "angka": [
-      {
-        "label": "Desain selesai",
-        "nilai": "4 berkas"
-      }
-    ]
+    "mendesak": [],
+    "angka": {
+      "ide": 3,
+      "caption": 3,
+      "desain": 1
+    }
   }
 }

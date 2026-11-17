@@ -204,6 +204,9 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; overflow: hidden
 .ko-bubble {
   width: max-content;
   max-width: min(240px, 60vw);
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
   margin: 0;
   padding: 8px 12px;
   border-radius: 14px 14px 14px 4px;
@@ -272,8 +275,12 @@ body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; overflow: hidden
   justify-items: start;
 }
 .ko-flat-desk .ko-bubble {
-  max-width: none;
+  max-width: min(220px, 70vw);
   width: auto;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  line-height: 1.4;
 }
 
 /* ---------- Mission Board ---------- */
